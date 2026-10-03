@@ -1,0 +1,13 @@
+{
+  // Is project ka ekmatra sahi environment. Isse VS Code (Python + Jupyter dono)
+  // khud .venv uthata hai, notebook ke liye kernel manually chunna nahi padta.
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+
+  // Terminal kholte hi env activate ho jaaye.
+  "python.terminal.activateEnvironment": true,
+
+  // Purana env galti se dobara na chun liya jaaye.
+  "files.exclude": {
+    "venv_OLD_py310_do_not_use": true
+  }
+}

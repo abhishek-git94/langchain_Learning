@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+venv_OLD_py310_do_not_use/
+
+__pycache__/
+.ipynb_checkpoints/
+.last_error.log
